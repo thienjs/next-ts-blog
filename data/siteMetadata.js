@@ -9,7 +9,7 @@ const siteMetadata = {
     siteLogo: "/static/images/logo.png",
     image: "https://pbs.twimg.com/.jpg",
     socialBanner: "/static/images/social-banner.png",
-    email: "thvu@hey.com",
+    email: "hi@thien.me",
     github: "https://github.com/thienjs",
     twitter: "https://twitter.com/thientxt",
     linkedin: "https://www.linkedin.com/in/thienjs/",

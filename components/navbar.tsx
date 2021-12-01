@@ -44,7 +44,7 @@ export default function Header() {
     <>
       <header
         className={`w-full sticky z-20 top-0 flex items-center justify-between py-4  ${
-          isTop ? "border-none" : "border-b border-gray-200 dark:border-gray-800"
+          isTop ? "border-none" : "border-b border-green-500"
         } bg-white dark:bg-black bg-opacity-30 dark:bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg firefox:bg-opacity-100 dark:firefox:bg-opacity-100`}
       >
         <nav className="flex items-center justify-between w-full max-w-2xl px-4 mx-auto sm:px-6 sm:py-2 xl:max-w-3xl xl:px-0">
