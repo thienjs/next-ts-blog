@@ -65,7 +65,7 @@ export default function Header() {
             </div>
             <div className="flex items-center sm:hidden">
               <MenuButton onClick={onMenuToggle} isOpened={menuShow} />
-              <div className="absolute bottom-5 right-3"><ThemeSwitch/></div>
+              <div className="absolute bottom-5 right-5"><ThemeSwitch/></div>
             </div>
           </div>
         </nav>

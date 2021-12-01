@@ -7,6 +7,7 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Post from '../types/post'
 import Navbar from '@/components/navbar'
+import Hero from '@/components/hero'
 
 type Props = {
   allPosts: Post[]
@@ -17,13 +18,13 @@ const Index = ({ allPosts }: Props) => {
   const morePosts = allPosts.slice(1)
   return (
     <>
-      <Layout>
+
         <Head>
           <title>thien</title>
         </Head>
         <Container>
+          <Hero/>
         </Container>
-      </Layout>
     </>
   )
 }
