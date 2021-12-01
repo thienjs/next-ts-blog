@@ -22,7 +22,6 @@ const Index = ({ allPosts }: Props) => {
           <title>thien</title>
         </Head>
         <Container>
-          <Navbar/>
         </Container>
       </Layout>
     </>

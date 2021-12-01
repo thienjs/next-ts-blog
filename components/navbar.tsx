@@ -2,6 +2,7 @@ import headerNavLinks from "@/data/headerNavLinks";
 import Link from "./customlink";
 import { useEffect, useState } from "react";
 import MenuButton from "./menubutton";
+import ThemeSwitch from "./themeswitch";
 
 function useIsScrollTop() {
   const [isTop, setIsTop] = useState(true);
@@ -64,6 +65,7 @@ export default function Header() {
             </div>
             <div className="flex items-center sm:hidden">
               <MenuButton onClick={onMenuToggle} isOpened={menuShow} />
+              <div className="absolute bottom-5 right-3"><ThemeSwitch/></div>
             </div>
           </div>
         </nav>
@@ -80,7 +82,7 @@ export default function Header() {
               <Link
                 href={link.href}
                 title={link.title}
-                className="text-xl font-semibold leading-8 tracking-wide text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white"
+                className="text-l font-semibold leading-8 tracking-wide text-gray-900 dark:text-gray-100 hover:text-blue dark:hover:text-blue-300"
                 onClick={onMenuToggle}
               >
                 {link.title}
