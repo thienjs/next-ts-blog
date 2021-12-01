@@ -1,6 +1,15 @@
 import { AppProps } from 'next/app'
+import "@/css/tailwind.css";
 import '../styles/index.css'
+import { ThemeProvider } from "next-themes";
+import ThemeSwitch from '@/components/themeswitch';
 
-export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <ThemeProvider>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
+
+export default MyApp;
