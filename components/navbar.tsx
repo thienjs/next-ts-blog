@@ -1,5 +1,5 @@
 import headerNavLinks from "@/data/headerNavLinks";
-import Link from "./customlink";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import MenuButton from "./menubutton";
 import ThemeSwitch from "./themeswitch";
